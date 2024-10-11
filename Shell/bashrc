@@ -1,0 +1,21 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+# Arch
+alias pls='sudo pacman -S'
+alias plss='sudo pacman -Syyu'
+alias dkup='docker compose up -d'
+alias dkdown='docker compose down'
+alias s='neofetch'
+alias ra='yazi'
+alias tt='zellij'
+
+export DK="/home/luoluo/Arch/Docker"

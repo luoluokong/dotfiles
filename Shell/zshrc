@@ -1,0 +1,14 @@
+# Arch
+source ~/.config/omz/omz.zsh
+
+alias pls='sudo pacman -S'
+alias dkup='docker compose up -d'
+alias dkdown='docker compose down'
+alias myctl='sudo systemctl'
+alias du='dust'
+alias ls='eza'
+alias s='neofetch'
+alias ra='yazi'
+alias tt='zellij'
+
+export EDITOR=nvim
